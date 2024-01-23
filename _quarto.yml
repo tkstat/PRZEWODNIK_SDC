@@ -1,24 +1,47 @@
 project:
   type: book
   output-dir: docs
-  
+
 book:
-  title: "SDC_HTML"
-  author: "Norah Jones"
-  date: "23.01.2024"
+  downloads: [pdf]
+  title: " "
+  subtitle: " "
+  reader-mode: true
+  page-footer:
+    left: |
+      *Przewodnik dla jednostek służb statystyki publicznej w zakresie kontroli ujawniania danych statystycznych* został przygotowany przez **Zespół ds. metod kontroli ujawniania danych statystycznych**.
+  search:
+    location: navbar
+    type: textbox
+
   chapters:
     - index.qmd
-    - intro.qmd
+    - dictionary00_2.qmd
+    - intro01.qmd
+    - aim02.qmd
+    - law03.qmd
+    - met04.qmd
     - summary.qmd
     - references.qmd
 
+    
+lang: pl
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: flatly
+      dark: darkly
+      
   pdf:
     documentclass: scrreprt
 
-
-
+css: custom.css
+selfcontained: true
+reference-location: margin
+engine: knitr
+toc: true
+toc-depth: 3
+fig-cap-location: top
+number-sections: true

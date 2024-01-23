@@ -1,0 +1,9 @@
+# Wprowadzenie
+
+::: justify
+W *Przewodniku* zaprezentowano wybrane wyniki prac Zespołu ds. metod kontroli ujawniania danych statystycznych (zwanego dalej Zespołem), który został powołany zarządzeniem wewnętrznym nr 21 Prezesa Głównego Urzędu Statystycznego z dnia 19 lipca 2019 r. W poniższej publikacji zebrano najważniejsze informacje teoretyczne i praktyczne, które mogą być przydatne pracownikom polskiej statystyki publicznej. W trakcie prac Zespołu zostały opracowane również dokumenty ilustrujące wyniki prac, które udostępniono w Intranecie link.
+
+W kolejnych rozdziałach *Przewodnika* zawarto zagadnienia związane z kontrolą udostępniania danych statystycznych. Omówiono w nich następujące zagadnienia: cel i założenia dokumentu, podstawy prawne tajemnicy statystycznej, metodologiczne zasady ochrony tajemnicy statystycznej, wytyczne w zakresie ukrywania przekrojów objętych tajemnicą statystyczną w SIB, rekomendacje w zakresie metod i narzędzi ukrywania przekrojów objętych tajemnicą statystyczną, metody oceny ryzyka ujawnienia danych objętych tajemnicą statystyczną oraz metody pomiaru utraty informacji w wyniku ukrycia przekrojów objętych tajemnicą statystyczną.
+
+Ponadto dokument zawiera cztery załączniki zamieszczone na końcu: tabelę z symbolami oznaczania tajemnicy statystycznej stosowanymi przez Eurostat w polskiej i angielskiej wersji językowej oraz trzy wzory dokumentów związanych z pozyskiwaniem zgody na publikację określonych danych charakteryzujących wyniki ekonomiczno-finansowe podmiotów gospodarki narodowej.
+:::

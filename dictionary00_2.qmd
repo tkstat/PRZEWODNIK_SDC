@@ -1,0 +1,407 @@
+# Słownik pojęć i skrótów {.unnumbered}
+
+## Pojęcia
+
+::: {.justify}
+[agregat (dane zagregowane)]{#term-t1}
+: wynik przekształcenia danych na poziomie jednostkowym w ilościowe miary dla zbioru cech populacji [zob. @CODED];
+
+&nbsp;
+
+[anonimizacja]{#term-t2}
+: trwałe i nieodwracalne usunięcie ze zbioru danych informacji umożliwiających powiązanie z konkretną osobą fizyczną lub podmiotem gospodarki narodowej albo inną osobą prawną bądź jednostką organizacyjną niemającą osobowości prawnej;
+
+&nbsp;
+
+[atrybuty niewrażliwe (*zmienne niewrażliwe, zmienne wynikowe niebędące poufne*)]{#term-t3}
+: zmienne niemające takiego stopnia poufności jak atrybuty wrażliwe (np. miejscowość zamieszkania lub zawód); potencjalnie mogą się stać pseudoidentyfikatorami;
+
+&nbsp;
+
+[atrybuty wrażliwe (*zmienne wrażliwe, poufne zmienne wynikowe*)]{#term-t4}
+: atrybuty, które są uznawane za należące wyłącznie do sfery prywatnej oraz poddane ochronie prawnej (wyznanie, stan zdrowia, poglądy polityczne, dochód osobisty itp.);
+
+&nbsp;
+
+[celowana wymiana rekordów (ang. *Targeted Record Swapping*, TRS)]{#term-t5}
+: specyficzna metoda wymiany rekordów, polegająca na wykorzystaniu hierarchicznej struktury mikrodanych (zwłaszcza w kontekście geograficznym). Wymiana danych następuje pomiędzy jednostkami wyższego poziomu niż podstawowy. Bazuje ona na określaniu grup rekordów o największym ryzyku ujawnienia (wyznaczanym w oparciu o regułę 𝑘-anonimowości) na każdym poziomie hierarchii i wymianie danych z zakresu zmiennych definiujących określone poziomy dokonywanej między grupami rekordów najbliższymi według odległości wyznaczanej na podstawie wartości określonych zmiennych (tzw. zmienne podobieństwa);
+
+&nbsp;
+
+[dane administracyjne]{#term-t6}
+: informacje i dane zgromadzone w rejestrach urzędowych i systemach informacyjnych administracji publicznej [*Art. 2 pkt 13a ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[dane jednostkowe]{#term-t7}
+: dane jednostkowe identyfikowalne i dane jednostkowe nieidentyfikowalne [*Art. 2 pkt 9 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*]; innymi słowy, są to dane dotyczące pojedynczego obiektu obserwacji statystycznej;
+
+&nbsp;
+
+[dane jednostkowe identyfikowalne]{#term-t8}
+: dane statystyczne zawierające informacje dotyczące konkretnego podmiotu gospodarki narodowej albo osoby fizycznej, identyfikujące bezpośrednio ten podmiot albo osobę według nazwy, imienia i nazwiska, adresu lub publicznie dostępnego numeru identyfikacyjnego oraz pozwalające na pośrednią identyfikację tego podmiotu albo osoby z użyciem innych środków niż środki pozwalające na bezpośrednią identyfikację, z wyłączeniem środków wymagających nadmiernych kosztów, czasu lub działań [*Art. 2 pkt 8a ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[dane jednostkowe nieidentyfikowalne]{#term-t9}
+: dane statystyczne zawierające informacje dotyczące konkretnego podmiotu gospodarki narodowej albo osoby fizycznej, niepozwalające na bezpośrednią ani pośrednią identyfikację tego podmiotu albo osoby [*Art. 2 pkt 8b ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[dane osobowe]{#term-t10}
+: informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej („osobie, której dane dotyczą”); możliwa do zidentyfikowania osoba fizyczna to osoba, którą można bezpośrednio lub pośrednio zidentyfikować, w szczególności na podstawie identyfikatora takiego jak imię i nazwisko, numer identyfikacyjny, dane o lokalizacji, identyfikator internetowy lub jeden bądź kilka szczególnych czynników określających fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną, kulturową lub społeczną tożsamość osoby fizycznej [*Art. 4 pkt 1 Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych – RODO) (Dz. Urz. UE L 119 z 04.05.2016, str. 1, z późn. zm.)*];
+
+&nbsp;
+
+[dane statystyczne]{#term-t11}
+: dane dotyczące zjawisk, zdarzeń, obiektów i działalności podmiotów gospodarki narodowej oraz życia i sytuacji osób fizycznych, w tym dane osobowe, pozyskane bezpośrednio od respondentów albo z systemów informacyjnych administracji publicznej, rejestrów urzędowych lub niepublicznych systemów informacyjnych, od momentu ich zebrania na potrzeby wykonywania zadań statystyki publicznej [*Art. 2 pkt 1a ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[dane statystyczne charakteryzujące wyniki ekonomiczno-finansowe podmiotów gospodarki narodowej prowadzących działalność gospodarczą]{#term-t12}
+: dane pozyskane przez statystykę publiczną z różnych źródeł na potrzeby prowadzonych badań, które zarówno bezpośrednio jak i pośrednio mogą informować o wynikach ekonomiczno-finansowych osiąganych przez podmiot; zmienne/zestawy danych, które w poszczególnych badaniach charakteryzują wyniki ekonomiczno-finansowe podmiotów gospodarki narodowej prowadzących działalność gospodarczą w rozumieniu art. 38 ust. 2 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej, są wskazane w SMS;
+
+&nbsp;
+
+[dominacja ***$(n,k)$***]{#term-t13}
+: występuje, gdy udział n największych podmiotów gospodarczych jest większy niż k% całkowitej wartości cechy ilościowej w komórce; w Polsce przyjmuje się $n=1$ i $k=75$ [opracowanie własne na podstawie *Art. 38 ust. 1 Ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[funkcje cyklometryczne]{#term-t14}
+: funkcje odwrotne do funkcji trygonometrycznych; z powodu okresowości tych ostatnich określone tylko na pewnych przedziałach (na których funkcje trygonometryczne są różnowartościowe, co stanowi warunek konieczny istnienia funkcji odwrotnej); nazywa się je także funkcjami kołowymi;
+
+&nbsp;
+
+[identyfikator]{#term-t15}
+: jednoznaczny, unikatowy wyróżnik osoby lub podmiotu w bazie danych (np. numer PESEL);
+
+&nbsp;
+
+[imputacja danych]{#term-t16}
+: uzupełnienie braków danych poprzez zastosowanie odpowiednich mechanizmów lub modeli i zmiennych z kompletnymi informacjami (np. imptacja oparta na dawcach, imputacja opara na modelach, imputacja losowa, itp.) celem zapewnienia odpowiedniej jakości udostępnych danych jednostkowych lub oszacowań określonych wielkości agregatowych;
+
+&nbsp;
+
+[jednostka autorska]{#term-t17}
+: komórka organizacyjna Głównego Urzędu Statystycznego lub urząd statystyczny (wiodący) odpowiedzialny za realizację badania statystycznego/pracy metodologicznej, wskazany w Planie Opracowań Statystycznych Głównego Urzędu Statystycznego dla danego badania statystycznego/ opracowania lub w Planie Prac Metodologicznych dla pracy metodologicznej na dany rok [*Rozdz. I pkt 15 Załącznika do zarządzenia wewnętrznego nr 32 z dnia 4 grudnia 2020 r. Prezesa GUS w sprawie ustanowienia Polityki postępowania z danymi statystycznymi (z późn. zm.)*];
+
+&nbsp;
+
+[kontrola udostępniania danych statystycznych]{#term-t18}
+: proces polegający na weryfikacji różnej postaci wynikowych danych statystycznych przed ich opublikowaniem czy udostępnieniem w innej postaci;
+
+&nbsp;
+
+[kontrola ujawniania danych statystycznych]{#term-t19}
+: działania prowadzone w odniesieniu do danych statystycznych w celu eliminacji (lub redukcji) ryzyka ujawnienia informacji o jednostkach statystycznych (respondentach); działania te zazwyczaj zmieniają lub ograniczają zakres publikowanych danych, minimalizując ryzyko ujawnienia i pozwalając jednocześnie na publikację możliwie szerokiego zakresu informacji [zob. @hundepool2012];
+
+&nbsp;
+
+[metoda deterministyczna]{#term-t20}
+: metoda ukrywania komórek w kontekście ukrycia pierwotnego i wtórnego opierająca się na identyfikacji, opisie biznesowym oraz zalgorytmizowaniu przypadków stosowania ochrony przekrojów poprzez ich ukrycie;
+
+&nbsp;
+
+[metoda hipersześcianów (hiperkostki, HYPERCUBE)]{#term-t21}
+: metoda kontroli ujawniania danych dla tablicy hierarchicznej lub łączonej polegająca na tym, że, podobnie jak dla podejścia modułowego, tablica zostaje podzielona na proste podtablice, a następnie poszukuje się rozwiązania dla każdej z podtablic w sposób iteracyjny. W odróżnieniu od podejścia modułowego, dla każdej z podtablic znalezione rozwiązanie nie musi być rozwiązaniem optimum, co z kolei z reguły prowadzi do bardziej restrykcyjnego ukrycia komórek, niż byłoby to konieczne;
+
+&nbsp;
+
+[metoda HITAS (podejście modułowe)]{#term-t22}
+: heurystyczna metoda kontroli ujawniania danych dla tablicy hierarchicznej lub łączonej polegająca na tym, że tablicę tę dzieli się na tablice bez hierarchii i poszukuje optimum ukrycia dla każdej wydzielonej tablicy z osobna. Łącząc wyniki w odpowiedni sposób, uzyskuje się rozwiązanie dla całej tablicy, które nie musi być optymalne. Celem tego podejścia jest szybsze znalezienie rozwiązania, które może jednak prowadzić do większej straty informacji;
+
+&nbsp;
+
+[metoda kluczy komórkowych (ang. *cell-key method*, CKM)]{#term-t23}
+: post–tablicowe podejście kontroli ujawniania danych, polegające na dodawaniu do każdej komórki tablicy szumu losowanego określonym mechanizmem z ustalonego rozkładu. Istotne są tutaj klucze przyporządkowywane rekordom w zbiorze mikrodanych stanowiących podstawę konstrukcji tablicy – liczby losowe z rozkładu jednostajnego $X \sim U(0,1)$, które dodaje się odpowiednio do naliczania tablicy, uzyskując w efekcie klucz komórki oraz predefiniowane prawdopodobieństwa przejścia (tzw. *p–tablica* – ang. *p–table*) służące do wyznaczania szumu jako funkcji kluczy komórek i wartości komórek;
+
+&nbsp;
+
+[metoda lokalnego ukrywania danych (ang. *local suppression*)]{#term-t24}
+: niezakłóceniowa metoda kontroli ujawniania polegająca na usuwaniu pewnych wartości niektórych zmiennych dla konkretnych jednostek celem uniknięcia ich identyfikacji; efekt lokalnego ukrywania stanowi zwiększenie liczby rekordów, dla których kombinacja określonych wartości pewnych innych zmiennych, uznanych za kluczowe, jest taka sama; podejście to ma zastosowanie przede wszystkim do danych jakościowych;
+
+&nbsp;
+
+[metoda OPTIMAL (metoda optymalna)]{#term-t25}
+: metoda ochrony poufności danych w tablicy hierarchicznej poprzez traktowanie jej jak pojedynczą, bez dzielenia na mniejsze podtablice, co zwiększa wydajność działań w zakresie kontroli ujawniania danych;
+
+&nbsp;
+
+[metoda przekodowania (przekodowanie, restrukturyzacja, ang. *recoding*)]{#term-t26}
+: zmiana sposobu kodowania określonych wrażliwych zmiennych; jeśli zmienne mają charakter jakościowy, wówczas polega na połączeniu kilku kategorii w jedną – bardziej zgrubną i o większej liczbie należących do niej jednostek, co pozwala ukryć informację wrażliwą; dla zmiennej ilościowej przekodowanie polega zaś na zastąpieniu owej zmiennej przez jej odpowiednik w postaci jakościowej; metoda ma zastosowanie zarówno do mikrodanych, jak i do tablic;
+
+&nbsp;
+
+[metoda SIMPLEHEURISTIC]{#term-t27}
+: odmiana procedury heurystycznej HITAS, która może być sprawnie zastosowana do bardzo dużych rozmiarowo problemów;
+
+&nbsp;
+
+[mikrodane]{#term-t28}
+: synonim pojęcia [dane jednostkowe](dictionary00_2.qmd#term-t7); 
+
+&nbsp;
+
+[minimalna kombinacja unikatowa (ang. *Minimal Sample Unique*, MSU)]{#term-t29}
+: niebezpieczna (z punktu widzenia określonej reguły poufności, np. *k*-anonimowości) kombinacja wartości kategorialnych quasi identyfikatorów, której żaden podzbiór właściwy nie stanowi kombinacji niebezpiecznej;
+
+&nbsp;
+
+[podmiot gospodarki narodowej]{#term-t30}
+: osoba prawna, jednostka organizacyjna niemająca osobowości prawnej oraz osoba fizyczna prowadząca działalność gospodarczą [*Art. 2 pkt 11 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[post-randomizacja (ang. *The Post–Randomization Method*, PRAM)]{#term-t31}
+: probabilistyczna metoda kontroli ujawniania danych generująca określone zakłócenia; wartości zmiennych kategorialnych dla pewnych rekordów zostają tutaj zamienione na inne z wykorzystaniem specyficznego mechanizmu probabilistycznego opartego na odpowiednio zdefiniowanej macierzy przejść Markowa, składającej się z prawdopodobieństw zmiany danej kategorii na inną oraz pozostawienia jej w niezmienionym kształcie;
+
+&nbsp;
+
+[poufność informacji statystycznych]{#term-t31a}
+: oznacza ochronę poufnych danych odnoszących się do każdej jednostki statystycznej, które zostały pozyskane bezpośrednio do celów statystycznych lub pośrednio ze źródeł administracyjnych lub innych, i rozumiana jest jako zakaz wykorzystywania uzyskanych danych do celów innych niż statystyczne oraz ich bezprawnego ujawnienia [*Art. 2 pkt 1e rozporządzenia Parlamentu Europejskiego i Rady (WE) nr 223/2009 z dnia 11 marca 2009 r. w sprawie statystyki europejskiej*];
+
+&nbsp;
+
+[przeciętne odchylenie bezwzględne]{#term-t32}
+: wartość bezwzględna różnicy pomiędzy wartością oryginalną a zaburzoną podzielona przez liczbę komórek lub jednostek wchodzących w skład danego agregatu; stosowane do wyznaczania straty informacji na skutek zastosowania kontroli ujawniania danych, zwłaszcza w przypadku danych zagregowanych;
+
+&nbsp;
+
+[pseudoidentyfikator (*quasi-identyfikator, zmienna kluczowa, domniemany identyfikator*)]{#term-t33}
+: zmienna w zbiorze danych, która – w połączeniu z innymi dostępnymi źródłami danych, do których ma dostęp użytkownik owego zbioru – może prowadzić do ujawnienia tożsamości respondenta;
+
+&nbsp;
+
+[pseudonimizacja]{#term-t34}
+: przetworzenie danych osobowych w taki sposób, by nie można ich było już przypisać konkretnej osobie, której dane dotyczą, bez użycia dodatkowych informacji, pod warunkiem że takie dodatkowe informacje są przechowywane osobno i są objęte środkami technicznymi i organizacyjnymi uniemożliwiającymi ich przypisanie zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej [*Art. 4 pkt 5 rozporządzenia Parlamentu Europejskiego I Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych – RODO) (Dz. Urz. UE L 119 z 04.05.2016, str. 1, z późn. zm.)*];
+
+&nbsp;
+
+[rejestry urzędowe]{#term-t35}
+: rejestry publiczne w rozumieniu ustawy z dnia 17 lutego 2005 r. o informatyzacji działalności podmiotów realizujących zadania publiczne (t.j. Dz. U. 2023 poz. 57) oraz inne rejestry i ewidencje prowadzone na podstawie ustaw lub wydanych na ich podstawie aktów wykonawczych, zawierające informacje o podmiotach gospodarki narodowej i ich działalności, informacje o osobach fizycznych, ich życiu i sytuacji oraz dotyczące zjawisk, zdarzeń i obiektów [*Art. 2 pkt 12 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[relatywne odchylenie bezwzględne]{#term-t36}
+: wartość bezwzględna różnicy pomiędzy wartością oryginalną a zaburzoną podzielona przez wartość oryginalną; stosowane do wyznaczania straty informacji na skutek zastosowania kontroli ujawniania danych, zwłaszcza w przypadku danych zagregowanych;
+
+&nbsp;
+
+[respondent]{#term-t37}
+: osoba fizyczna, osoba prawna lub jednostka organizacyjna niemająca osobowości prawnej, przekazująca dane dla celów statystycznych [*Art. 2 pkt 11a ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[ryzyko globalne]{#term-t38}
+: sumaryczne ryzyko identyfikacji jednostek dla całego zbioru danych jednostkowych; wyznacza się je najczęściej jako sumę lub średnią arytmetyczną ryzyk indywidualnych (czyli ryzyk identyfikacji poszczególnych jednostek);
+
+&nbsp;
+
+[ryzyko hierarchiczne]{#term-t39}
+: ryzyko ujawnienia związane z hierarchiczną strukturą danych: jeżeli osoba, której udało się naruszyć tajemnicę statystyczną dokonała poprawnej identyfikacji choćby jednej jednostki niższego poziomu należącej do jednostki poziomu wyższego, to skutkiem wiedzy o tej przynależności może być identyfikacja pozostałych jednostek poziomu niższego wchodzących w skład tejże jednostki poziomu wyższego; ryzyko hierarchiczne wyznacza się zarówno na poziomie indywidualnym, jak i globalnym;
+
+&nbsp;
+
+[ryzyko indywidualne]{#term-t40}
+: ryzyko identyfikacji pojedynczej jednostki;
+
+&nbsp;
+
+[służby statystyki publicznej]{#term-t41}
+: Prezes Głównego Urzędu Statystycznego, podlegli mu dyrektorzy urzędów statystycznych, jednostki przez niego nadzorowane utworzone na podstawie ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych (Dz. U. z 2021 r. poz. 305, z późn. zm.) oraz jednostki, o których mowa w art. 27 ustawy a dnia 29 czerwca 1995 r. o statystyce publicznej. [*Art. 22 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[System Informatyczny Badania (SIB)]{#term-t42}
+: dedykowany system dostępny dla uprawnionych osób realizujących badanie, służący do gromadzenia, przetwarzania, analizy i kontroli danych pozyskiwanych w badaniu;
+
+&nbsp;
+
+[System Metadanych Statystycznych (SMS)]{#term-t43}
+: system służący do zarządzania metadanymi powstającymi podczas projektowania, planowania i realizacji badań statystycznych oraz ich udostępniania [GUS (2015), [Zasady dotyczące organizacji prac i podziału zadań związanych z prowadzeniem Systemu Metadanych Statystycznych – SMS oraz wykorzystaniem metadanych gromadzonych w Repozytorium Metadanych w jednostkach statystyki publicznej](http://intranet/GUS/MS/Lists/System Metadanych Statystycznych/Attachments/3/Zasady dla SMS_20_07_2015.pdf)];
+
+&nbsp;
+
+[systemy informacyjne administracji publicznej]{#term-t44}
+: systemy zbierania, gromadzenia i przetwarzania informacji przez organy administracji publicznej, Zakład Ubezpieczeń Społecznych, Narodowy Fundusz Zdrowia, Komisję Nadzoru Finansowego, organy rejestrowe, inne państwowe lub samorządowe osoby prawne oraz inne podmioty prowadzące rejestry urzędowe [*Art. 2 pkt 13 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[tablica częstości]{#term-t45}
+: tablica, w której każda komórka reprezentuje liczność (częstość), czyli liczbę jednostek należących do danej kategorii, tzn. do wymiaru tabeli, który dana komórka obrazuje. Tablice te są typowe dla badań społecznych;
+
+&nbsp;
+
+[tablica kontrolna]{#term-t46}
+: tablica robocza, nieprzeznaczona do publikacji, która powstaje na etapie przetwarzania danych;
+
+&nbsp;
+
+[tablica publikacyjna]{#term-t47}
+: tablica wynikowa opracowana w układzie odpowiadającym sposobowi prezentacji informacji wynikowych w publikacji, bazie danych lub innym opracowaniu statystycznym, przeznaczona do publikacji lub udostępnienia użytkownikom zewnętrznym, przy zachowaniu tajemnicy statystycznej poprzez zastosowanie odpowiednich metod kontroli ujawniania danych;
+
+&nbsp;
+
+[tablica statystyczna]{#term-t48}
+: liczbowy opis struktury badanej zbiorowości, jest formą systematycznego uporządkowania danych liczbowych i stanowi zwięzłą i przejrzystą formę prezentacji danych statystycznych w postaci krzyżujących się kolumn i wierszy; ze względu na etapy pracy w badaniach, wyróżniamy tablice kontrolne, tablice wynikowe (analityczne) i tablice publikacyjne [Zając K. (1994), Zarys metod statystycznych, PWE, Warszawa];
+
+&nbsp;
+
+[tablica wielkości]{#term-t49}
+: tablica statystyczna, w której każda komórka reprezentuje wartość sumaryczną dla cechy ilościowej dla jednostek, które dana komórka reprezentuje;
+
+&nbsp;
+
+[tablica wynikowa (analityczna)]{#term-t50}
+: tablica statystyczna, będąca wynikiem ostatecznego opisu badanego zjawiska, która może stanowić podstawę analiz statystycznych;
+
+&nbsp;
+
+[tablice łączone]{#term-t51}
+: dwie lub więcej tablic statystycznych, w których jako zmienną grupującą (bądź zmienne grupujące) przyjęto tę samą zmienną (lub te same zmienne), przez co tablice te mają wspólne wszystkie lub niektóre kategorie wymiarów, a więc w tablicach takich prezentowane są dane dla tej samej zmiennej, a wszystkie te tablice mają pewien zakres wspólnych komórek;
+
+&nbsp;
+
+[tajemnica pierwotna]{#term-t52}
+: zob. [ukrywanie komórek pierwotne](dictionary00_2.qmd#term-t57);
+
+&nbsp;
+
+[tajemnica publikacyjna]{#term-t53}
+: ochrona przed ujawnieniem informacji, stosowana w przypadku badań, w których wprowadzono możliwość występowania do podmiotów gospodarki narodowej (respondentów) o zgodę na publikowanie danych zgodnie z art. 38 ust. 3 ustawy o statystyce publicznej, zachowanie tajemnicy statystycznej jest kontrolowane po uwzględnieniu zgód udzielonych przez respondentów;
+
+&nbsp;
+
+[tajemnica statystyczna]{#term-t54}
+: dane jednostkowe identyfikowalne zebrane w badaniach statystycznych podlegają bezwzględnej ochronie; dane te mogą być wykorzystywane wyłącznie do opracowań, zestawień i analiz statystycznych oraz do tworzenia przez Prezesa Głównego Urzędu Statystycznego operatu do badań statystycznych; udostępnianie lub wykorzystywanie tych danych dla innych niż podane w ustawie celów jest zabronione [*Art. 10 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[tajemnica wtórna]{#term-t55}
+: zob. [ukrywanie komórek wtórne](dictionary00_2.qmd#term-t58);
+
+&nbsp;
+
+[ujawnienie]{#term-t56}
+: dotyczy faktu poznania przez jednostkę (osobę, podmiot gospodarczy, instytucję, itd.) informacji na temat innej jednostki, do których nie uprawnia jej obowiązujące prawo lub inne względy [zob. @hundepool2012];
+
+&nbsp;
+
+[ukrywanie komórek pierwotne]{#term-t57}
+: (potocznie nazywane **ochroną tajemnicy pierwotnej**) ochrona przed bezpośrednim poznaniem wartości cechy respondenta przez osoby   do tego nieuprawnione realizowana zgodnie z art. 38 ust. 2 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej: *Nie mogą być publikowane ani udostępniane uzyskane w badaniach statystycznych dane statystyczne możliwe do powiązania i zidentyfikowania z konkretną osobą fizyczną oraz informacje i dane statystyczne charakteryzujące wyniki ekonomiczno-finansowe podmiotów gospodarki narodowej prowadzących działalność gospodarczą, jeżeli na daną agregację składa się mniej niż trzy podmioty lub udział jednego podmiotu w określonym zestawieniu jest większy niż trzy czwarte całości.* Zasada ta oznacza konieczność ukrycia pozycji spełniających wymienione warunki z tablic, zbiorów oraz baz przeznaczonych do udostępniania. Zmienne, według których badany jest udział podmiotu w zestawieniu, określa jednostka autorska;
+
+&nbsp;
+
+[ukrywanie komórek wtórne]{#term-t58}
+: (potocznie nazywane **ochroną tajemnicy wtórnej**) ochrona przed pośrednim ujawnieniem informacji chronionej, objętej tajemnicą statystyczną, po przeprowadzeniu pierwotnego ukrywania komórek. Ujawnienie takie może nastąpić np. poprzez wykorzystanie związków i zależności pomiędzy poszczególnymi informacjami czy danymi w tablicy lub bazie danych;
+
+&nbsp;
+
+[użytkownik zewnętrzny]{#term-t59}
+: osoba lub jednostka spoza jednostek statystyki publicznej zamawiająca lub korzystająca z danych statystycznych;
+
+&nbsp;
+
+[ważność zmiennej]{#term-t60}
+: istotność danej zmiennej określana jako jej wkład do globalnego ryzyka ujawnienia informacji wrażliwych z danej bazy;
+
+&nbsp;
+
+[wynikowe informacje statystyczne]{#term-t61}
+: wyniki obliczeń, opracowań i analiz dokonanych na podstawie zebranych w badaniach statystycznych statystyki publicznej danych statystycznych [*Art. 14 ust. 1 ustawy z dnia 29 czerwca 1995 r. o statystyce publicznej (t.j. Dz. U. z 2023 r. poz. 773, z późn. zm.)*];
+
+&nbsp;
+
+[zmienne ciągłe]{#term-t62}
+: zmienne wyrażone na skali różnicowej (przedziałowej, interwałowej) lub ilorazowej; zmienne te nazywa się często także *zmiennymi ilościowymi*;
+
+&nbsp;
+
+[zmienne hierarchiczne]{#term-t63}
+: szczególny przypadek zmiennych jakościowych; występują wówczas, gdy odnoszą się do domen, które mają charakter hierarchiczny, zagnieżdżony i które mogą być liniowo uporządkowane według stopnia tego zagnieżdżenia.
+
+&nbsp;
+
+[zmienne kartograficzne]{#term-t64}
+: zmienne służące do określania topograficznego położenia obiektów w terenie lub ich identyfikacji w inny sposób przy tworzeniu wykresów mapowych.
+
+&nbsp;
+
+[zmienne kategorialne]{#term-t65}
+: zmienne wyrażone na skali nominalnej lub porządkowej; zmienne te nazywa się często także zmiennymi jakościowymi;
+
+&nbsp;
+
+[zmienne regionalne]{#term-t66}
+: zmienne przestrzennie lokalizujące respondenta. Mogą dotyczyć zarówno jednostek administracyjnych (makroregion, województwo, region, podregion, powiat, gmina), jak i obszarów funkcjonalnych (np. wyznaczonych na podstawie poziomu urbanizacji czy oddziaływań społeczno-ekonomicznych).
+
+&nbsp;
+
+[zmienne ważące (*wagi*)]{#term-t67}
+: specjalne zmienne występujące w zbiorach danych pochodzących z badań reprezentacyjnych, wykorzystywane w procesie estymacji do uogólniania wyników z próby na populację generalną. Są opracowywane na podstawie schematu doboru próby, przy uwzględnieniu poprawek związanych z jednostkowymi brakami odpowiedzi i ewentualnych innych kryteriów.
+
+:::
+
+
+## Skróty
+
+::: {.justify}
+
+[**ABM** – Analityczna Baza Mikrodanych]{#term-s1}  
+
+[**Dz. U.** – Dziennik Ustaw]{#term-s2}  
+
+[**ESS** – (ang. *European Statistical System*) Europejski System Statystyczny]{#term-s3}  
+
+[**Euratom** – (ang. *European Atomic Energy Community – EAEC*) Europejska Wspólnota Energii Atomowej]{#term-s4}  
+
+[**Eurostat** – (ang. *European Statistical Office*) Urząd Statystyczny Unii Europejskiej]{#term-s5}  
+
+[**EWG** – Europejska Wspólnota Gospodarcza]{#term-s6}  
+
+[**GSBPM** – (ang. *Generic Statistical Business Process Model*) generyczny model procesu produkcji statystycznej]{#term-s7}  
+
+[**GUS** – Główny Urząd Statystyczny]{#term-s8}  
+
+[**JSP** – jednostki statystyki publicznej]{#term-s9}  
+
+[**MPPS** – Model procesu produkcji statystycznej]{#term-s10}  
+
+[**MSU** – (ang. *Minimal Sample Unique*) minimalna kombinacja unikatowa]{#term-s11}  
+
+[**OBM** – Operacyjna Baza Mikrodanych]{#term-s12}  
+
+[**OBS** – operat do badań społecznych]{#term-s13}  
+
+[**PBSSP** – Program Badań Statystycznych Statystyki Publicznej]{#term-s13}  
+
+[**RODO** – rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/ WE (ogólne rozporządzenie o ochronie danych) (Dz. Urz. UE L 199 z 04.05.2016, str. 1, z późn. zm.)]{#term-s14}  
+
+[**RP** – Rzeczpospolita Polska]{#term-s15}  
+
+[**SDC** – (ang. *Statistical Disclosure Control*) kontrola ujawniania danych statystycznych, kontrola ryzyka ujawnienia informacji, które powinny być chronione tajemnicą statystyczną oraz poziomu straty informacji związanych z ukrywaniem lub zniekształcaniem danych wrażliwych]{#term-s16}  
+
+[**SIB** – System Informatyczny Badania]{#term-s17}  
+
+[**SISP** – System Informacyjny Statystyki Publicznej]{#term-s18}  
+
+[**SMS** – System Metadanych Statystycznych]{#term-s19}  
+
+[**SPDS** – System Pozyskiwania, Przetwarzania i Integracji Danych Statystycznych; podstawową rolą SPDS jest zapewnienie jednolitego, spójnego i kompletnego sposobu zasilania hurtowni danych systemu SISP]{#term-s20}  
+
+[**SUDA** – (ang. *Special Uniques Detection Algorithm*) algorytm wykrywania kombinacji unikalnych]{#term-s21}  
+
+[**TK** – Trybunał Konstytucyjny]{#term-s22}  
+
+[**UE** – Unia Europejska]{#term-s23}  
+
+[**UNECE** – (ang. United Nations Economic Commission for Europe) Europejska Komisja Gospodarcza Organizacji Narodów Zjednoczonych]{#term-s24}  
+
+[**US** – urząd statystyczny]{#term-s25}  
+
+[**WE** – Wspólnota Europejska]{#term-s26}  
+
+[**WOBR** – Wojewódzki Ośrodek Badań Regionalnych]{#term-s27}  
+
+:::

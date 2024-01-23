@@ -1,5 +1,35 @@
-# Introduction
+# Strona tytułowa {.unnumbered}
 
-This is a book created from markdown and executable code.
+![](logo_gus.jpg){width="30%"}
 
-See @knuth84 for additional discussion of literate programming.
+
+<p style="text-align: center; font-size: 130%; color: darkgreen"> <b>Przewodnik dla jednostek służb statystyki publicznej  
+w zakresie kontroli ujawniania danych statystycznych</b></p>
+
+
+>[*Opracowanie zbiorcze  
+Zespołu ds. metod kontroli ujawniania danych statystycznych*]{style="font-size:120%; color:blue"}
+
+
+
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+::: {.center}
+Warszawa, listopad 2023
+:::
+
