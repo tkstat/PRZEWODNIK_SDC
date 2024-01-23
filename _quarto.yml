@@ -21,11 +21,8 @@ book:
     - aim02.qmd
     - law03.qmd
     - met04.qmd
-    - summary.qmd
-    - references.qmd
 
     
-lang: pl
 bibliography: references.bib
 
 format:
