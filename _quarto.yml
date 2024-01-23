@@ -36,7 +36,7 @@ format:
 
 css: custom.css
 selfcontained: true
-reference-location: margin
+# reference-location: margin
 engine: knitr
 toc: true
 toc-depth: 3
